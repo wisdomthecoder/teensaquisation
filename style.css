@@ -81,10 +81,12 @@ background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 25
 }
 
 .skills{
-    text-align: center;
-    padding-top: 40px;
+    /* text-align: center; */
+    padding-top: 20px 10px;
 }
 .skills h1{
+    /* padding: 20px; */
+    text-align: center;
     color: red;
 }
 .skills img{
@@ -95,4 +97,31 @@ background-image: linear-gradient(to bottom, rgb(255, 255, 255),rgb(255, 255, 25
     margin: 0px;
     font-weight: 500;
     font-size: 20px;
+}
+.list{
+    background-color: red;
+    padding:10px;
+    margin: 5px;
+    background-color: aliceblue;
+    border-radius: 20px;
+    display: flex;
+}
+.list p {
+    font-size: 20px;
+    padding-left: 30px;
+    font-weight: bold;
+}
+.register{
+    padding: 20px;
+}
+.register  h1{
+    text-align: center;
+    color: rgb(0, 36, 52);
+}
+.register p{
+    font-size: 20px;
+}
+.register b{
+    font-size: 30px;
+    font-weight: 500;
 }
